@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class RhymersJUnitTest {
 
-
+	// TODO: Można rozbić poniższe metody na więcej klas, bo trochę długię się to robi ;)
 
 	private void generalTestCountIn(DefaultCountingOutRhymer rhymer) {
 		int testValue = 4;

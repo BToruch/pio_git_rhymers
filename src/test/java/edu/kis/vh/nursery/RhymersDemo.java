@@ -47,6 +47,8 @@ class RhymersDemo {
 			System.out.println();
 		}
 
+		// TODO: można rozbić powyższy kod na pomniejsze metody :)
+
 		System.out.println("total rejected is "
 				+ ((HanoiRhymer) rhymers[3]).reportRejected());
 	}
