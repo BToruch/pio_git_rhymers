@@ -49,7 +49,9 @@ public class DefaultCountingOutRhymer {
     public int countOut() {
         if (callCheck())
             return getErrEmpty();
-        return getNumbers()[setTotal(getTotal() - 1)];
+        int ret = getTotal();
+        setTotal(getTotal() - 1);
+        return getNumbers()[ret];
     }
 
     public int[] getNumbers() {
