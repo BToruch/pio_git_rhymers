@@ -5,6 +5,23 @@ import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 class RhymersDemo {
 
+	/**
+	 *
+	 * Klasa RhymersDemo
+	 *
+	 * Metody:
+	 *
+	 * -main - główna metoda, utworzenie wyliczanki
+	 * -Zmienne:
+	 * --factory - zmienna przechowująca domyślnej wyliczanki
+	 *
+	 * -rhymersCounting - szkielet programu, zawiera kod testowej wyliczanki
+	 * -metoda wykonuje wyliczankę dla każdej stworzonej wyliczanki i zwraca ilość odrzuconych prób
+	 * -Zmienne:
+	 * --rhymers - tablica wyliczanek tworzonych na bazie fabryki podanej w argumencie
+	 *
+	 */
+
 	public static void main(String[] args) {
 		Rhymersfactory factory = new DefaultRhymersFactory();
 
